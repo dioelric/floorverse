@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+  <!-- Background (safe zone for maskable: content within central 80%) -->
+  <rect width="512" height="512" rx="96" fill="#1A3C6B"/>
+  <!-- Floor plan outline -->
+  <rect x="76" y="76" width="360" height="360" rx="14" fill="none" stroke="#ffffff" stroke-width="20"/>
+  <!-- Vertical divider -->
+  <line x1="268" y1="76" x2="268" y2="436" stroke="#ffffff" stroke-width="18"/>
+  <!-- Horizontal top divider (left zone) -->
+  <line x1="76" y1="240" x2="268" y2="240" stroke="#ffffff" stroke-width="18"/>
+  <!-- Horizontal bottom divider (right zone) -->
+  <line x1="268" y1="316" x2="436" y2="316" stroke="#ffffff" stroke-width="18"/>
+  <!-- Door swing arc — top-left room -->
+  <path d="M76 240 A52 52 0 0 1 128 188" fill="none" stroke="#93C5FD" stroke-width="13"/>
+  <line x1="76" y1="188" x2="76" y2="240" stroke="#93C5FD" stroke-width="13"/>
+  <!-- Window — right wall of right-top room -->
+  <line x1="416" y1="130" x2="416" y2="190" stroke="#93C5FD" stroke-width="13"/>
+  <line x1="426" y1="130" x2="426" y2="190" stroke="#93C5FD" stroke-width="8"/>
+  <line x1="436" y1="130" x2="436" y2="190" stroke="#93C5FD" stroke-width="13"/>
+  <!-- Amber accent badge -->
+  <circle cx="430" cy="82" r="42" fill="#F59E0B"/>
+  <text x="430" y="95" text-anchor="middle" font-family="sans-serif" font-size="38" font-weight="bold" fill="#1A3C6B">3D</text>
+</svg>

@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 192 192">
+  <!-- Background -->
+  <rect width="192" height="192" rx="36" fill="#1A3C6B"/>
+  <!-- Floor plan outline -->
+  <rect x="28" y="28" width="136" height="136" rx="6" fill="none" stroke="#ffffff" stroke-width="8"/>
+  <!-- Interior wall - vertical -->
+  <line x1="100" y1="28" x2="100" y2="164" stroke="#ffffff" stroke-width="7"/>
+  <!-- Interior wall - horizontal top-left zone -->
+  <line x1="28" y1="90" x2="100" y2="90" stroke="#ffffff" stroke-width="7"/>
+  <!-- Interior wall - horizontal bottom-right zone -->
+  <line x1="100" y1="120" x2="164" y2="120" stroke="#ffffff" stroke-width="7"/>
+  <!-- Door arc (bottom-left room) -->
+  <path d="M28 90 A20 20 0 0 1 48 70" fill="none" stroke="#93C5FD" stroke-width="5"/>
+  <line x1="28" y1="70" x2="28" y2="90" stroke="#93C5FD" stroke-width="5"/>
+  <!-- Accent dot -->
+  <circle cx="160" cy="32" r="16" fill="#F59E0B"/>
+  <text x="160" y="38" text-anchor="middle" font-family="sans-serif" font-size="16" font-weight="bold" fill="#1A3C6B">3D</text>
+</svg>
